@@ -11,7 +11,9 @@
     --lightest-grey: #e9e9e9;
 }
 
-
+/* img{
+    background-color:red;
+} */
 /* 
 Navigation bar 
 */
@@ -42,7 +44,8 @@ nav a {
     display: flex;
     align-items: center;
     text-transform: uppercase;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    background-color:red;
 }
 
 .logo > p {
@@ -199,7 +202,7 @@ Start learning section
 /**** Start learning grid ****/
 .sl-grid-wrapper {
     display: grid;
-    /* grid-template-columns: repeat(auto-fill, minmax(30%, 1fr)); */
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr)); 
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2%;
 }
