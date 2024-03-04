@@ -25,10 +25,12 @@ nav {
     padding: 1%;
 }
 
-nav > ul {
+nav>ul {
     display: flex;
     list-style: none;
     align-items: center;
+   
+    
 }
 
 nav li {
@@ -450,6 +452,10 @@ footer li {
 
     footer p {
         font-size: 100%;
+        --dark-grey: #3c3b3d;
+    --light-grey: #8e8e8e;
+    --lighter-grey: #dfdfdf;
+    --lightest-grey: #e9e9e9;
     }
     
 }
