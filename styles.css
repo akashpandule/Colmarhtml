@@ -1,7 +1,8 @@
 * {
     font-family: 'Roboto', sans-serif;
-    margin: 20;
-    padding: 20;
+    margin: 0;
+    padding: 0;
+    
 }
 
 :root {
@@ -68,9 +69,11 @@ nav a {
 Hero section 
 */
 .hero-container {
+    
     background-color: var(--lighter-grey);
+
     display: flex;
-    padding: 5% 3%;
+    padding: 6% 6%;
 }
 
 .hero-container button {
@@ -82,26 +85,35 @@ Hero section
 }
 
 .hero-left img {
-    width: 85%;
+    width: 100%;
 }
-
 .hero-right {
     display: flex;
     justify-content: center;
+   
     flex-direction: column;
     margin: 0 1%;
     padding: 0 2%;
-}
 
+}
 .hero-right > h1, h4 {
     padding: 5%;
+    color: white;
     color: var(--dark-grey)
+
 }
 
 .hero-right a {
     color: white;
     text-decoration: none;
 }
+ .hero-right button:hover {
+    background-color:gray;
+    color: white;
+    width: 80%;
+    
+}
+
 
 /* 
 News section
@@ -189,7 +201,7 @@ News section
 /* 
 Start learning section 
 */
-.sl-container {
+.sl-container:hover {
     background-color: var(--lightest-grey);
     padding: 2% 5% 8% 5%;
 }
