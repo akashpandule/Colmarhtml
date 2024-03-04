@@ -1,7 +1,7 @@
 * {
     font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 20;
+    padding: 20;
 }
 
 :root {
@@ -23,6 +23,7 @@ nav {
     padding: 1%;
 }
 
+
 nav>ul {
     display: flex;
     list-style: none;
@@ -40,12 +41,12 @@ nav a {
     color: var(--dark-grey);
 }
 
-.logo {
+.logo{
     display: flex;
     align-items: center;
     text-transform: uppercase;
     font-size: 1.3rem;
-    
+   
 }
 
 .logo > p {
@@ -218,8 +219,8 @@ Start learning section
     flex-direction: column;
 }
 
-.sl-info {
-    background-color: white;
+.sl-info:hover {
+    background-color:grey;
     padding: 5%;
 }
 
@@ -295,7 +296,7 @@ Thesis exhibit section
     padding: 5%;
 }
 
-.fisma {
+.fisma{
     background-color: var(--lightest-grey);
 }
 
